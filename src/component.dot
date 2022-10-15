@@ -1,0 +1,9 @@
+digraph structs {
+"DataModelTransform" -> "DataModel"
+"DataModelTransform" -> "DataModelChange"
+"ViewModel" -> "DataModel"
+"ViewModelTransform" -> "ViewModel"
+"ViewModelTransform" -> "ViewModelChange"
+"ViewModelTransform" -> "DataModelChange"
+"ViewModelTransform" -> "DataModelTransform"
+}

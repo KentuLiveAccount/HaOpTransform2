@@ -1,0 +1,8 @@
+digraph structs {
+ViewModel -> ViewCache
+ViewModel -> DataModel
+ViewModel -> ViewState
+ViewModelChange -> ViewModel
+DataModelChange -> DataModel
+ViewModelChange -> DataModelChange
+}
